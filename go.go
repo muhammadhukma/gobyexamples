@@ -16,6 +16,7 @@ func fibonacci(c, quit chan int) {
 }
 
 // saya merubah nya
+// menambahkan konflik
 // saya telah menambahkan fitur baru
 
 func main() {
