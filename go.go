@@ -16,7 +16,8 @@ func fibonacci(c, quit chan int) {
 }
 
 // saya merubah nya
-// saya telah menambahkan fitur baru
+// saya telah mengganti baris ini
+// dan saya menambahkan baris satu lagi
 
 func main() {
 	c := make(chan int)
