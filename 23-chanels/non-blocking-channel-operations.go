@@ -9,7 +9,7 @@ func main() {
 	messages := make(chan string)
 	signals := make(chan bool)
 
-	// Here's a non-blocking recieve. If a value is available on messages then select will take the <- messages case with that value.
+	// Here's a non-blocking recieve. If a value is available on messages then select will take the <-messages case with that value.
 	// If not it will immediately take the default case.
 	select {
 	case msg := <-messages:
