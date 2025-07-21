@@ -45,6 +45,8 @@ func main() {
 	if slices.Equal(t, t2) {
 		fmt.Println("t == t2")
 	}
+	// hallo nama saya muhammad hukma ulil albab, saat ini saya sedang belajar bahasa pemrograman golang
+	// ini sangat membantu dalam kehidupan sehari-hari saya. semoga saya bisa cepat dalam belajar bahasa golang.
 
 	twoD := make([][]int, 3)
 	for i := range 3 {
