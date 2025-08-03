@@ -14,6 +14,8 @@ func check(e error) {
 	}
 }
 
+// slow but never look back
+
 func main() {
 	// To start, here now to dump a string (or just bytes) into a file.
 	d1 := []byte("hello\ngo\n")
